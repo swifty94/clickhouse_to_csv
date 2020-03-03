@@ -21,7 +21,7 @@ function timestamp(){
 	if [ -f /path/to/file.csv ]; then 
 		mv /path/to/file.csv /path/to/file__$(date +%b_%d_%Y_%Hh%Mm).csv
 		#below one is optional
-    chown YOUR_USER: /path/to/file.csv*.* 
+    		chown YOUR_USER: /path/to/file.csv*.* 
 	fi
 }
 
